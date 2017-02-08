@@ -11,7 +11,7 @@ const i18n = {
   }
 }
 const Download = (props) => (
-  <a href={i18n[props.language].download}>{i18n[props.language].text}</a>
+  <a target="_blank" href={i18n[props.language].download}>{i18n[props.language].text}</a>
 );
 
 export default Download;
