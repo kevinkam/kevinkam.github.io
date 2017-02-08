@@ -2,11 +2,11 @@ import React from 'react'
 
 const i18n = {
   us:{
-    download: 'dist/images/resume-us.pdf',
+    download: 'dist/pdf/resume-us.pdf',
     text: 'Download CV'
   },
   tw: {
-    download: 'dist/images/resume-tw.pdf',
+    download: 'dist/pdf/resume-tw.pdf',
     text: '下載履歷'
   }
 }
