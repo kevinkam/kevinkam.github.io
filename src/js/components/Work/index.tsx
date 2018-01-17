@@ -536,6 +536,7 @@ export default (props: { language: string }) => {
     }
     return (
       <Job
+        key={index}
         last={last}
         title={job.title}
         year={job.year}

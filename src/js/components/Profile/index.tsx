@@ -6,6 +6,13 @@ import Translation from "./Translation"
 import { ProfilePic, Profile } from "./styled"
 const ProfileImg = require("images/profile.jpg")
 
+const InfoRow = (props: any) => (
+  <Row type="flex" style={{margin: '.2rem 0'}}>
+    <Col span={2}>{props.children[0]}</Col>
+    <Col span={22}>{props.children[1]}</Col>
+  </Row>
+)
+
 const i18n: any = {
   us: {
     subTitle: () => (
@@ -48,27 +55,35 @@ export default (props: any) => (
         <h4>{i18n[props.language].subTitle()}</h4>
       </Col>
       <Col xl={9} lg={9} md={9} sm={9} xs={24}>
-        <div>
-          <Icon type="user" />&nbsp;
-          <span className="description">{i18n[props.language].name}</span>
-        </div>
-        <div>
-          <Icon type="mail" />&nbsp;
-          <span className="description">
-            <a
-              href={
-                "mailto:k040691@icloud.com?subject=" +
-                i18n[props.language].email
-              }
-            >
-              k040691@icloud.com
-            </a>
-          </span>
-        </div>
-        <div>
-          <Icon type="environment-o" />&nbsp;
-          <span className="description">{i18n[props.language].location}</span>
-        </div>
+        <InfoRow>
+          <Icon type="user" />
+          <span>{i18n[props.language].name}</span>
+        </InfoRow>
+        <InfoRow>
+          <Icon type="mail" />
+          <a
+            href={
+              "mailto:k040691@icloud.com?subject=" + i18n[props.language].email
+            }
+          >
+            k040691@icloud.com
+          </a>
+        </InfoRow>
+        <InfoRow>
+          <Icon type="environment-o" />
+          <span>{i18n[props.language].location}</span>
+        </InfoRow>
+        <InfoRow>
+          <Icon type="phone" />
+          <>
+            <div>
+              (SG) <a href="tel:+6590020757">+6590020757</a>
+            </div>
+            <div>
+              (MY) <a href="tel:+601110942332">+601110942332</a>
+            </div>
+          </>
+        </InfoRow>
       </Col>
     </Row>
     <Translation
