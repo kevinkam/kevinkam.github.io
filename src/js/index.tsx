@@ -15,6 +15,7 @@ import Profile from "./components/Profile"
 import Education from "./components/Education"
 import Skill from "./components/Skill"
 import Work from "./components/Work"
+import Portfolio from "./components/Portfolio"
 import Download from "./components/Download"
 
 const languageSelector: {
@@ -66,6 +67,8 @@ class App extends React.PureComponent<
             <Skill language={this.state.language} />
             <Divider />
             <Work language={this.state.language} />
+            <Divider />
+            <Portfolio language={this.state.language} />
             {/*<Download language={this.state.language} />*/}
           </Layout.Content>
         </Layout>

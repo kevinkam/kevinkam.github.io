@@ -22,7 +22,7 @@ const Jobs: any = {
       title: "Aistage",
       year: "2011-2013",
       position: "Website Engineer",
-      description: () => (
+      description: (
         <div>
           <img src={AirStageImg} />
           <div>
@@ -56,7 +56,7 @@ const Jobs: any = {
       title: "Hiin Music",
       year: "2014/8-2014/12",
       position: "Website Engineer",
-      description: () => (
+      description: (
         <div>
           <img src={HiinImg} />
           <div>
@@ -95,7 +95,7 @@ const Jobs: any = {
       title: "We Jump",
       year: "2015/3-2015/6",
       position: "Front-End Engineer",
-      description: () => (
+      description: (
         <div>
           <img src={WJARImg} />
           <div>
@@ -113,7 +113,7 @@ const Jobs: any = {
       title: "NYD IT Consultant",
       year: "2015/7-2016/8",
       position: "Front-End Engineer",
-      description: () => (
+      description: (
         <Row>
           <Col xs={24} sm={24} md={14} lg={14}>
             <p>
@@ -141,7 +141,7 @@ const Jobs: any = {
       title: "IT Werks",
       year: "2016/12-2017/2",
       position: "Front-End Developer",
-      description: () => (
+      description: (
         <div>
           <img src={SAPPImg} />
           <div>
@@ -167,7 +167,7 @@ const Jobs: any = {
       title: "Orion Consultancy",
       year: "2017/3-Present",
       position: "Front-End Developer",
-      description: () => (
+      description: (
         <Row>
           <Col xs={24} sm={24} md={14} lg={14}>
             <p>
@@ -197,7 +197,7 @@ const Jobs: any = {
       title: "Aistage 西湾人",
       year: "2011-2013",
       position: "网站工程师",
-      description: () => (
+      description: (
         <div>
           <img src={AirStageImg} />
           <div>
@@ -222,7 +222,7 @@ const Jobs: any = {
       title: "海浪音乐网",
       year: "2014/8-2014/12",
       position: "网站工程师",
-      description: () => (
+      description: (
         <div>
           <img src={HiinImg} />
           <div>
@@ -252,7 +252,7 @@ const Jobs: any = {
       title: "旺捷数位科技",
       year: "2015/3-2015/6",
       position: "前端工程师",
-      description: () => (
+      description: (
         <div>
           <img src={WJARImg} />
           <div>
@@ -269,7 +269,7 @@ const Jobs: any = {
       title: "NYD IT Consultant",
       year: "2015/7-2016/8",
       position: "前端工程师",
-      description: () => (
+      description: (
         <Row>
           <Col xs={24} sm={24} md={14} lg={14}>
             <div>
@@ -298,7 +298,7 @@ const Jobs: any = {
       title: "IT Werks",
       year: "2016/12-2017/2",
       position: "前端工程师",
-      description: () => (
+      description: (
         <div>
           <img src={SAPPImg} />
           <div>
@@ -323,7 +323,7 @@ const Jobs: any = {
       title: "Orion Consultancy",
       year: "2017/3-目前",
       position: "前端工程师",
-      description: () => (
+      description: (
         <Row>
           <Col xs={24} sm={24} md={14} lg={14}>
             <p>
@@ -350,7 +350,7 @@ const Jobs: any = {
       title: "Aistage 西灣人",
       year: "2011-2013",
       position: "網站工程師",
-      description: () => (
+      description: (
         <div>
           <img src={AirStageImg} />
           <div>
@@ -375,7 +375,7 @@ const Jobs: any = {
       title: "海浪音樂網",
       year: "2014/8-2014/12",
       position: "網站工程師",
-      description: () => (
+      description: (
         <div>
           <img src={HiinImg} />
           <div>
@@ -405,7 +405,7 @@ const Jobs: any = {
       title: "旺捷數位科技",
       year: "2015/3-2015/6",
       position: "前端工程師",
-      description: () => (
+      description: (
         <div>
           <img src={WJARImg} />
           <div>
@@ -422,7 +422,7 @@ const Jobs: any = {
       title: "NYD IT Consultant",
       year: "2015/7-2016/8",
       position: "前端工程師",
-      description: () => (
+      description: (
         <Row>
           <Col xs={24} sm={24} md={14} lg={14}>
             <div>
@@ -451,7 +451,7 @@ const Jobs: any = {
       title: "IT Werks",
       year: "2016/12-2017/2",
       position: "前端工程师",
-      description: () => (
+      description: (
         <div>
           <img src={SAPPImg} />
           <div>
@@ -476,7 +476,7 @@ const Jobs: any = {
       title: "Orion Consultancy",
       year: "2017/3-目前",
       position: "前端工程師",
-      description: () => (
+      description: (
         <Row>
           <Col xs={24} sm={24} md={14} lg={14}>
             <p>
@@ -499,7 +499,13 @@ const Jobs: any = {
     }
   ]
 }
-const Job = (props: any) => {
+const Job = (props: {
+  last: boolean
+  title: string
+  position: string
+  year: string
+  description: JSX.Element
+}) => {
   let columnWide = {
     left: 20,
     right: 4
@@ -522,8 +528,8 @@ const Job = (props: any) => {
           <div className="year">{props.year}</div>
         </Col>
       </Row>
-      <div className="description">{props.description()}</div>
-      <Divider />
+      <div className="description">{props.description}</div>
+      {!props.last && <Divider />}
     </Work>
   )
 }
