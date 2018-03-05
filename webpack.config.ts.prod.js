@@ -2,7 +2,8 @@ const path = require("path")
 const webpack = require("webpack")
 
 module.exports = {
-  devtool: "source-map",
+  mode: "production",
+  devtool: "none",
   entry: {
     bundle: "./src/js/index.tsx"
   },
@@ -24,7 +25,7 @@ module.exports = {
       // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
       {
         test: /\.tsx?$/,
-        use: ["babel-loader", "ts-loader"],
+        use: ["babel-loader"],
         exclude: path.join(__dirname, "node_modules")
       },
       {
@@ -60,31 +61,27 @@ module.exports = {
       {
         enforce: "pre",
         test: /\.js$/,
-        loader: ["source-map-loader", "babel-loader"],
+        loader: ["babel-loader"],
         exclude: path.join(__dirname, "node_modules")
       }
     ]
   },
-  plugins: [
-    new webpack.DefinePlugin({
-      "process.env.NODE_ENV": JSON.stringify("production")
-    }),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: "vendor",
-      filename: "vendor.js",
-      minChunks: function(module) {
-        // this assumes your vendor imports exist in the node_modules directory
-        return module.context && module.context.includes("node_modules")
-      },
-      chunks: ["bundle"]
-    }),
-    new webpack.optimize.UglifyJsPlugin({
-      uglifyOptions: {
-        compress: {
-          drop_console: true
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          chunks: "initial",
+          name: "vendor",
+          test: path.resolve(__dirname, "node_modules"),
+          enforce: true
         }
       }
-    }),
+    }
+  },
+  plugins: [
+    // new webpack.DefinePlugin({
+    //   "process.env.NODE_ENV": JSON.stringify("production")
+    // }),
     new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /zh-cn|zh-tw/)
   ]
 }

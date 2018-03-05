@@ -535,26 +535,21 @@ const Job = (props: {
 }
 export default (props: { language: string }) => {
   const totalWork = Jobs[props.language].length - 1
-  const works = Jobs[props.language].map((job: any, index: number) => {
-    let last = false
-    if (index === totalWork) {
-      last = true
-    }
-    return (
-      <Job
-        key={index}
-        last={last}
-        title={job.title}
-        year={job.year}
-        position={job.position}
-        description={job.description}
-      />
-    )
-  })
   return (
     <Container>
       <h2 className="ui header">{i18n[props.language].title}</h2>
-      <div className="content">{works}</div>
+      <div className="content">
+        {Jobs[props.language].map((job: any, index: number) => (
+          <Job
+            key={index}
+            last={index === totalWork}
+            title={job.title}
+            year={job.year}
+            position={job.position}
+            description={job.description}
+          />
+        ))}
+      </div>
     </Container>
   )
 }

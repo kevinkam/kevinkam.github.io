@@ -81,7 +81,7 @@ const ValueBar = ({
   </SkillValueBar>
 )
 export default ({ language }: { language: string }) => (
-  <Container>
+  <Container pageBreak>
     <h2>{i18n[language].title}</h2>
     {skills.map(({ skill, val, Icon }, i) => (
       <ValueBar key={i} skill={skill} val={val} Icon={Icon} />

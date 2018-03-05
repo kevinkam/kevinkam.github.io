@@ -23,7 +23,7 @@ const i18n: {
   }
 }
 export default ({ language }: { language: string }) => (
-  <Container>
+  <Container pageBreak>
     <h2>{i18n[language].title}</h2>
     <Row align="middle" justify="center" type="flex">
       <Col xl={16} lg={16} md={16} sm={16} xs={24}>

@@ -9,6 +9,13 @@ export const Work = styled.div`
       max-width: 80%;
     }
   }
+  @media print {
+    page-break-after: always;
+    img.right {
+      height: 500px;
+      width: auto;
+    }
+  }
 `
 
 export const TechStack = styled.i`

@@ -6,4 +6,9 @@ export const SkillValueBar = styled.div`
     margin-right: 0.7rem;
     width: 1rem;
   }
+  @media print {
+    .ant-progress-bg {
+      -webkit-print-color-adjust: exact;
+    }
+  }
 `
