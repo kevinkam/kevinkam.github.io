@@ -47,7 +47,7 @@ const i18n: any = {
 }
 export default (props: any) => (
   <Profile>
-    <Row align="middle" justify="center" type="flex">
+    <Row align="middle" justify="center">
       <Col xl={6} lg={6} md={6} sm={6} xs={24}>
         <ProfilePic src={ProfileImg} />
       </Col>

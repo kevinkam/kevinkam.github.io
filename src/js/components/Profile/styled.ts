@@ -1,5 +1,4 @@
 import styled from "styled-components"
-const ProfileImg = require("images/profile.jpg")
 
 export const Profile = styled.div`
   padding-top: 24px;
@@ -17,6 +16,10 @@ export const ProfilePic = styled.img`
   border-radius: 50%;
   @media (max-width: 575px) {
     width: 200px;
+    height: auto;
+  }
+  @media print {
+    width: 100px;
     height: auto;
   }
 `
