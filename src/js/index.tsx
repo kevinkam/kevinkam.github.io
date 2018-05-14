@@ -1,4 +1,4 @@
-import "babel-polyfill"
+import "@babel/polyfill"
 import "css/style.css"
 
 import * as React from "react"
