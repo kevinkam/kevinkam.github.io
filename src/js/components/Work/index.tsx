@@ -174,7 +174,7 @@ const Jobs: any = {
               Company is an out sourcing company, do not have a specific
               products.<br />
               I’m responsible for mobile website, desktop website, company CMS
-              system.
+              system, chatroom(using websocket).
             </p>
             <p>
               This company use a lot of latest tech to build up the system, I
@@ -182,7 +182,7 @@ const Jobs: any = {
             </p>
             <TechStack>
               Tech Stack: JavaScript, TypeScript, CSS, HTML, ES6/7/8, React.js,
-              Redux, React-Router, Webpack
+              Redux, React-Router, Webpack, WebSocket, DraftJS
             </TechStack>
           </Col>
           <Col xs={24} sm={24} md={10} lg={10}>
@@ -328,14 +328,14 @@ const Jobs: any = {
           <Col xs={24} sm={24} md={14} lg={14}>
             <p>
               主要为外包公司，并无自己特定的产品<br />
-              主要负责产品为手机端网页、桌面端网页、公司CMS系统
+              主要负责产品为手机端网页、桌面端网页、公司CMS系统、聊天室(使用websocket)
             </p>
             <p>
               该公司使用很多最新的技术来建构系统，在这家公司里学了很多最新的前端技术。
             </p>
             <TechStack>
               使用技术: JavaScript, TypeScript, CSS, HTML, ES6/7/8, React.js,
-              Redux, React-Router, Webpack
+              Redux, React-Router, Webpack, WebSocket, DraftJS
             </TechStack>
           </Col>
           <Col xs={24} sm={24} md={10} lg={10}>
@@ -481,14 +481,14 @@ const Jobs: any = {
           <Col xs={24} sm={24} md={14} lg={14}>
             <p>
               主要為外包公司，並無自己特定的產品<br />
-              主要負責產品為手機端網頁、桌面端網頁、公司CMS系統
+              主要負責產品為手機端網頁、桌面端網頁、公司CMS系統、聊天室(使用websocket)
             </p>
             <p>
               該公司使用很多最新的技術來建構系統，在這家公司裡學了很多最新的前端技術。
             </p>
             <TechStack>
               使用技術: JavaScript, TypeScript, CSS, HTML, ES6/7/8, React.js,
-              Redux, React-Router, Webpack
+              Redux, React-Router, Webpack, WebSocket, DraftJS
             </TechStack>
           </Col>
           <Col xs={24} sm={24} md={10} lg={10}>
