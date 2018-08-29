@@ -15,7 +15,7 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.0.0",
-    "@types/react": "^16.4.12",
+    "@types/react": "^16.4.13",
     "@types/react-dom": "^16.0.7",
     "babel-loader": "^8.0.0",
     "babel-plugin-import": "^1.8.0",
@@ -28,10 +28,10 @@
     "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.0",
     "styled-components": "^3.4.5",
-    "typescript": "^3.0.1",
+    "typescript": "^3.0.3",
     "url-loader": "^1.1.1",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.6"
+    "webpack-dev-server": "^3.1.7"
   }
 }
