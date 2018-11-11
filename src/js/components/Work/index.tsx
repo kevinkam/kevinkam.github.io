@@ -165,7 +165,7 @@ const Jobs: any = {
     },
     {
       title: "Orion Consultancy",
-      year: "2017/3-Present",
+      year: "2017/3-2018/9",
       position: "Front-End Developer",
       description: (
         <Row>
@@ -321,7 +321,7 @@ const Jobs: any = {
     },
     {
       title: "Orion Consultancy",
-      year: "2017/3-目前",
+      year: "2017/3-2018/9",
       position: "前端工程师",
       description: (
         <Row>
@@ -474,7 +474,7 @@ const Jobs: any = {
     },
     {
       title: "Orion Consultancy",
-      year: "2017/3-目前",
+      year: "2017/3-2018/9",
       position: "前端工程師",
       description: (
         <Row>
