@@ -6,6 +6,7 @@ import * as WeJump from "./WeJump"
 import * as NYD from "./NYD"
 import * as ITWerks from "./ITWerks"
 import * as Orion from "./Orion"
+import * as Partipost from "./Partipost"
 
 import { Container } from "../styled"
 import { Work } from "./styled"
@@ -17,28 +18,31 @@ const i18n: { [x: string]: { title: string } } = {
 }
 const Jobs: any = {
   us: [
-    Airstage.us,
-    HiinMusic.us,
-    WeJump.us,
-    NYD.us,
+    Partipost.us,
+    Orion.us,
     ITWerks.us,
-    Orion.us
+    NYD.us,
+    WeJump.us,
+    HiinMusic.us,
+    Airstage.us,
   ],
   ch: [
-    Airstage.ch,
-    HiinMusic.ch,
-    WeJump.ch,
-    NYD.ch,
+    Partipost.ch,
+    Orion.ch,
     ITWerks.ch,
-    Orion.ch
+    NYD.ch,
+    WeJump.ch,
+    HiinMusic.ch,
+    Airstage.ch,
   ],
   tw: [
-    Airstage.tw,
-    HiinMusic.tw,
-    WeJump.tw,
-    NYD.tw,
+    Partipost.tw,
+    Orion.tw,
     ITWerks.tw,
-    Orion.tw
+    NYD.tw,
+    WeJump.tw,
+    HiinMusic.tw,
+    Airstage.tw,
   ]
 }
 const Job = (props: {
