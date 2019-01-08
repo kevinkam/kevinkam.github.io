@@ -48,21 +48,6 @@ const skills: Array<{ skill: string; val: number; Icon?: any }> = [
     skill: "jQuery",
     val: 80,
     Icon: <img src={JQueryIcon} />
-  },
-  {
-    skill: "Angular.js 2",
-    val: 30,
-    Icon: <img src={AngularIcon} />
-  },
-  {
-    skill: "Vue.js",
-    val: 30,
-    Icon: <img src={VueIcon} />
-  },
-  {
-    skill: "Node.js",
-    val: 30,
-    Icon: <img src={NodeIcon} />
   }
 ]
 const ValueBar = ({

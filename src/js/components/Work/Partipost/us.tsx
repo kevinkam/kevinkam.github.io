@@ -4,7 +4,7 @@ import * as React from "react"
 const PartipostImg = require("images/partipost.png")
 export default {
   title: "Partipost",
-  year: "2018/9-Present",
+  year: "2018/9-2018/12",
   position: "Front-End Developer",
   description: (
     <div>
