@@ -4,7 +4,7 @@ import * as React from "react"
 const SAPPImg = require("images/sapp.png")
 
 export default {
-  title: "IT Werks",
+  title: "IT Werks (Singapore)",
   year: "2016/12-2017/2",
   position: "Front-End Developer",
   description: (

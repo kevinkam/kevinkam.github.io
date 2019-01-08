@@ -4,7 +4,7 @@ import * as React from "react"
 
 const NYDImg = require("images/nyd.png")
 export default {
-  title: "NYD IT Consultant",
+  title: "NYD IT Consultant (Philippines)",
     year: "2015/7-2016/8",
   position: "Front-End Engineer",
   description: (

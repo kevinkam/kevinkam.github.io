@@ -3,7 +3,7 @@ import { TechStack } from "../styled"
 import * as React from "react"
 const OrionImg = require("images/orion.png")
 export default {
-  title: "Orion Consultancy",
+  title: "Orion Consultancy (新加坡)",
   year: "2017/3-2018/9",
   position: "前端工程師",
   description: (

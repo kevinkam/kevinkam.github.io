@@ -4,7 +4,7 @@ import * as React from "react"
 const WJARImg = require("images/wjar.png")
 
 export default {
-  title: "旺捷数位科技",
+  title: "旺捷数位科技 (台湾)",
   year: "2015/3-2015/6",
   position: "前端工程师",
   description: (

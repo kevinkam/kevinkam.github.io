@@ -4,7 +4,7 @@ import * as React from "react"
 const HiinImg = require("images/hiinmusic.png")
 
 export default {
-  title: "海浪音乐网",
+  title: "海浪音乐网 (台湾)",
   year: "2014/8-2014/12",
   position: "网站工程师",
   description: (

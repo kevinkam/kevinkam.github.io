@@ -4,8 +4,8 @@ import * as React from "react"
 const WJARImg = require("images/wjar.png")
 
 export default {
-  title: "We Jump",
-    year: "2015/3-2015/6",
+  title: "We Jump (Taiwan)",
+  year: "2015/3-2015/6",
   position: "Front-End Engineer",
   description: (
   <div>

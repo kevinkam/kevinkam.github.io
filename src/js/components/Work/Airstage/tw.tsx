@@ -3,7 +3,7 @@ import { TechStack } from "../styled"
 const AirStageImg = require("images/airstage.png")
 
 export default {
-  title: "Aistage 西灣人",
+  title: "Aistage 西灣人 (台灣)",
   year: "2011-2013",
   position: "網站工程師",
   description: (
