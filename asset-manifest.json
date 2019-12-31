@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.2fbd2119.chunk.css",
-    "main.js": "/static/js/main.f29e2848.chunk.js",
-    "main.js.map": "/static/js/main.f29e2848.chunk.js.map",
+    "main.js": "/static/js/main.34426df8.chunk.js",
+    "main.js.map": "/static/js/main.34426df8.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.23674b75.js",
     "runtime~main.js.map": "/static/js/runtime~main.23674b75.js.map",
     "static/css/2.acc482c4.chunk.css": "/static/css/2.acc482c4.chunk.css",
-    "static/js/2.9d5ecf99.chunk.js": "/static/js/2.9d5ecf99.chunk.js",
-    "static/js/2.9d5ecf99.chunk.js.map": "/static/js/2.9d5ecf99.chunk.js.map",
+    "static/js/2.2c54f166.chunk.js": "/static/js/2.2c54f166.chunk.js",
+    "static/js/2.2c54f166.chunk.js.map": "/static/js/2.2c54f166.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.848cb8ba0bced13c0e3377969b9d9853.js": "/precache-manifest.848cb8ba0bced13c0e3377969b9d9853.js",
+    "precache-manifest.2530124f14326216bcd810f8a87b7be9.js": "/precache-manifest.2530124f14326216bcd810f8a87b7be9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.acc482c4.chunk.css.map": "/static/css/2.acc482c4.chunk.css.map",
     "static/css/main.2fbd2119.chunk.css.map": "/static/css/main.2fbd2119.chunk.css.map",
@@ -21,7 +21,6 @@
     "static/media/jquery-original.svg": "/static/media/jquery-original.cebb17c0.svg",
     "static/media/nyd.png": "/static/media/nyd.eb58d027.png",
     "static/media/orion.png": "/static/media/orion.ea7655f5.png",
-    "static/media/partipost.png": "/static/media/partipost.1cb328f6.png",
     "static/media/profile.jpg": "/static/media/profile.576c9e1e.jpg",
     "static/media/react-original.svg": "/static/media/react-original.e9f3d01c.svg",
     "static/media/samsonite-1.png": "/static/media/samsonite-1.2eb9aa23.png",
@@ -33,7 +32,6 @@
     "static/media/samsonite-7.png": "/static/media/samsonite-7.9bf78070.png",
     "static/media/samsonite-8.png": "/static/media/samsonite-8.e2834837.png",
     "static/media/sapp.png": "/static/media/sapp.bcc29052.png",
-    "static/media/typescript-original.svg": "/static/media/typescript-original.02867dbe.svg",
-    "static/media/wjar.png": "/static/media/wjar.0d232075.png"
+    "static/media/typescript-original.svg": "/static/media/typescript-original.02867dbe.svg"
   }
 }
