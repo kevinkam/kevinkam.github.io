@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.2fbd2119.chunk.css",
-    "main.js": "/static/js/main.34426df8.chunk.js",
-    "main.js.map": "/static/js/main.34426df8.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.23674b75.js",
-    "runtime~main.js.map": "/static/js/runtime~main.23674b75.js.map",
-    "static/css/2.acc482c4.chunk.css": "/static/css/2.acc482c4.chunk.css",
-    "static/js/2.2c54f166.chunk.js": "/static/js/2.2c54f166.chunk.js",
-    "static/js/2.2c54f166.chunk.js.map": "/static/js/2.2c54f166.chunk.js.map",
+    "main.js": "/static/js/main.fa8bdd72.chunk.js",
+    "main.js.map": "/static/js/main.fa8bdd72.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0326f26c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0326f26c.js.map",
+    "static/css/2.4dee9164.chunk.css": "/static/css/2.4dee9164.chunk.css",
+    "static/js/2.4a338b17.chunk.js": "/static/js/2.4a338b17.chunk.js",
+    "static/js/2.4a338b17.chunk.js.map": "/static/js/2.4a338b17.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2530124f14326216bcd810f8a87b7be9.js": "/precache-manifest.2530124f14326216bcd810f8a87b7be9.js",
+    "precache-manifest.ce91d03d90acd7ed599ae4b70e5f24b3.js": "/precache-manifest.ce91d03d90acd7ed599ae4b70e5f24b3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.acc482c4.chunk.css.map": "/static/css/2.acc482c4.chunk.css.map",
+    "static/css/2.4dee9164.chunk.css.map": "/static/css/2.4dee9164.chunk.css.map",
     "static/css/main.2fbd2119.chunk.css.map": "/static/css/main.2fbd2119.chunk.css.map",
+    "static/js/2.4a338b17.chunk.js.LICENSE": "/static/js/2.4a338b17.chunk.js.LICENSE",
     "static/media/airstage.png": "/static/media/airstage.a67e6d7d.png",
+    "static/media/carigos.png": "/static/media/carigos.b58932e0.png",
     "static/media/css3-original.svg": "/static/media/css3-original.a70a7e3e.svg",
     "static/media/hiinmusic.png": "/static/media/hiinmusic.a42aa47b.png",
     "static/media/html5-original.svg": "/static/media/html5-original.7997c424.svg",
@@ -33,5 +35,12 @@
     "static/media/samsonite-8.png": "/static/media/samsonite-8.e2834837.png",
     "static/media/sapp.png": "/static/media/sapp.bcc29052.png",
     "static/media/typescript-original.svg": "/static/media/typescript-original.02867dbe.svg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0326f26c.js",
+    "static/css/2.4dee9164.chunk.css",
+    "static/js/2.4a338b17.chunk.js",
+    "static/css/main.2fbd2119.chunk.css",
+    "static/js/main.fa8bdd72.chunk.js"
+  ]
 }
